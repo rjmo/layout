@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body {
-    font-family: 'roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
     background-color:#FDFBFF ;
 }
 
@@ -30,39 +31,14 @@ div.card-recettes{
 }
 .button {
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #2364AA;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     cursor: pointer;
   }
   
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
 
 @media only screen and (min-width: 768px) {
     div.card-recettes {
